@@ -1,0 +1,66 @@
+<style type="text/css">
+h1{
+	text-align: center;
+	font-family: georgia;
+	font-size: 40px;
+}
+div{
+	background-color: grey;
+	border:2px solid black;
+	padding:0.5%;
+	margin:10px;
+	box-sizing: border-box;
+}
+span{
+	float: right;
+	font-size:120%;
+	padding:5px 10px 5px 10px;
+	font-weight: bold;
+	font-family: cursive;
+
+	border: 2px solid black;
+}
+p{
+	font-size: 100%
+	text-align:left;
+	padding:5px 10px 5px 10px;
+	height:100px;
+	font-weight: 800;
+	position: relative;
+	top: 30px;
+}
+span#one{
+	background-color: pink
+}
+span#two{
+	background-color: red
+}
+span#three{
+	background-color: yellow
+}
+
+@media (min-width: 992px){
+	div{
+		display: inline-block;
+		width: 31%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	div{
+		display: inline-block;
+		width: 49.5%;
+		margin: 2% auto;
+	}
+	div#three{
+		display: inline-block;
+		width: 99.5%;
+		margin: 2% auto;
+	}
+}
+@media (max-width: 767px){
+	div{
+		
+	}
+}
+
+</style>
