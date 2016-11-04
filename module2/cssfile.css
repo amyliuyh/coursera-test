@@ -10,13 +10,18 @@ div{
 	padding:0.5%;
 	margin:10px;
 	box-sizing: border-box;
+	position:relative;
 }
 span{
-	float: right;
+
 	font-size:120%;
 	padding:5px 10px 5px 10px;
 	font-weight: bold;
 	font-family: cursive;
+	position:absolute;
+	top:0;
+	right:0;
+
 
 	border: 2px solid black;
 }
